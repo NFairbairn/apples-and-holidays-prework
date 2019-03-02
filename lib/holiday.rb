@@ -82,10 +82,6 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |keys, values|
     values.each do |holidays, supplies|
       binding.pry
-      holidays.each do |
-        puts holiday
-      end
-      end
     end
   end
 end
