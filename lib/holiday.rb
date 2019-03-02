@@ -79,8 +79,10 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
+  holiday_hash.each do |keys, values|
+    values.each do |holidays, supplies|
+      if supplies == "BBQ"
+        puts holiday
 
-  bbq_values = holiday_hash.map{|x| x.values_at(":memorial_day")}
-  bbq_values
 
 end
