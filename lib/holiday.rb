@@ -85,6 +85,7 @@ def all_holidays_with_bbq(holiday_hash)
       holidays.each do |
         puts holiday
       end
+      end
     end
   end
 end
